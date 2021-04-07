@@ -1,0 +1,1 @@
+Program cu bancomatul facut in java. Contine urmatoarele functionalitati alimentare cont, retragere cont, creare cont, schimbare cod pin, istoric, tranzactii si stop program. Daca s-a gresit codul pin de 3 ori programul se inchide.
