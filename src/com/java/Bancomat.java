@@ -18,7 +18,7 @@ public class Bancomat {
     public void startBancomat() throws IncorrectPinException {
         String serviciuAles;
         while (contBancar.getBancomatFunctional(true)) {
-            System.out.println("Tastati numele serviciul dorit alimentare, retragere,creare pentru creare cont, schimbare pentru schimbare pin sau stop: ");
+            System.out.println("Tastati numele serviciul dorit alimentare, retragere, creare pentru creare cont, schimbare pentru schimbare pin, istoric, tranzactii sau stop: ");
             serviciuAles = ScannerWrapper.next();
             if (serviciuAles.toLowerCase().equals("creare")) {
                 comenziController.creareCont(contBancar);
