@@ -27,7 +27,7 @@ public class VerificatorDePin {
         while (contBancar.getIncercari() > 0) {
 
             introducereCodPin(contBancar);
-            if(checkPin==true){  //valoare atribuita verificata pentru iesire din bucla
+            if(checkPin==true){  //valoare schimbata este verificata pentru iesire din bucla
 
                 break;
 
