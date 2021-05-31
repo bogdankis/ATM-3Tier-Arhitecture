@@ -13,7 +13,7 @@ public class ComenziControllerImpl implements ComenziController {
     private SchimbarePinService schimbarePinService;
 
     private IstoricService istoricService;
-    private TranzactiiService tranzactiiservice;
+    private TranzactiiService tranzactiiService;
 
     public ComenziControllerImpl() {
         creareContService = new CreareContServiceImpl();
@@ -21,7 +21,7 @@ public class ComenziControllerImpl implements ComenziController {
         retragereService = new RetragereServiceImpl();
         schimbarePinService = new SchimbarePinServiceImpl();
         istoricService = new IstoricServiceImpl();
-        tranzactiiservice = new TranzactiiServiceImpl();
+        tranzactiiService = new TranzactiiServiceImpl();
     }
 
     public void creareCont(ContBancar contBancar) {
@@ -45,6 +45,6 @@ public class ComenziControllerImpl implements ComenziController {
     }
 
     public void tranzactii(ContBancar contBancar) {
-        tranzactiiservice.tranzactii(contBancar);
+        tranzactiiService.tranzactii(contBancar);
     }
 }

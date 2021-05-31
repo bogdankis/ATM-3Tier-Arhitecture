@@ -10,7 +10,7 @@ public class VerificatorDePin {
 
         System.out.println("Introduceti codul pin: ");
         String introducereCodPin = ScannerWrapper.next();
-        if (introducereCodPin.equals(contBancar.getCodPin())) { //daca codul pin e corect  i se atribuie o valoare pentru a iesi din bucla
+        if (introducereCodPin.equals(contBancar.getCodPin())) { //daca codul pin e corect i se schimba starea in true pentru a iesi din bucla
             checkPin = true;
 
         } else {

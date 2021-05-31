@@ -25,7 +25,7 @@ public class Bancomat {
             } else if (serviciuAles.toLowerCase().equals("stop")) {
                 break;
             }
-            if (contBancar.getContCreat() && serviciuAles.equals("alimentare")) { // atunci cand contul este creat contCreat = true
+            if (contBancar.getContCreat() && serviciuAles.equals("alimentare")) { // atunci cand contul este creat contCreat = true si este tastat alimentare
                 comenziController.alimentare(contBancar);
             } else if (contBancar.getContCreat() && serviciuAles.equals("retragere")) {
                 comenziController.retragere(contBancar);
